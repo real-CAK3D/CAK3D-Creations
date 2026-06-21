@@ -33,8 +33,22 @@ const projects = [
     name: 'Device Dashboards',
     type: 'Telemetry',
     accent: '#8ba4ff',
-    summary: 'Simple telemetry and status dashboards for The Garden, NukeBox, Hack-Safe, theBAK3RY, HP laptop, and local services.',
+    summary: 'Simple telemetry and status dashboards for The Garden, NukeBox, Hack-Safe, theBAK3RY, HP laptop, local previews, ports, uptime, and service checks.',
     points: ['Fast device awareness', 'Service previews and ports', 'Low-clutter workshop control']
+  },
+  {
+    name: 'Hermes / Agent Command Center',
+    type: 'AI workflow',
+    accent: '#76f7ff',
+    summary: 'A multi-agent Garden setup where specialist profiles help coordinate devices, Discord lanes, apps, smart-home checks, and project handoffs.',
+    points: ['Ganja, Maple, Disco Stu, Homie, BAK3R, CYPH3R and more', 'Profile-scoped tools and safer routing', 'Discord-first operations desk']
+  },
+  {
+    name: 'Smart Home + Homie',
+    type: 'Home automation',
+    accent: '#ffd166',
+    summary: 'Home Assistant experiments tied into the workshop: lights, device states, household automation ideas, and smart-home specialist support.',
+    points: ['Home Assistant control path', 'Device and room awareness', 'Automation-ready project lane']
   },
   {
     name: 'Discord Bots & Agent Lanes',
@@ -48,14 +62,28 @@ const projects = [
     type: 'Hardware-adjacent',
     accent: '#ff6b6b',
     summary: 'A growing set of Raspberry Pi projects: Pi 5 systems, CrowPi Hack-Safe, future P4wnagotchi work, field devices, kiosks, and local servers.',
-    points: ['theBAK3RY + Hack-Safe', 'Field-ready experiments', 'Documented as reusable builds']
+    points: ['theBAK3RY + Hack-Safe', 'Pi Zero 2 WH experiments', 'Documented as reusable builds']
+  },
+  {
+    name: 'NukeBox / Local App Lab',
+    type: 'Windows + web lab',
+    accent: '#7cc9ff',
+    summary: 'The GMKTec NukeBox acts as a local app bench for Windows-hosted previews, Next/Vite projects, Discord workflows, and heavier creative tools.',
+    points: ['Local preview servers', 'Tailscale-connected app testing', 'Bridge between desktop tools and cloud deploys']
+  },
+  {
+    name: 'Knowledge + Wiki Systems',
+    type: 'Docs and memory',
+    accent: '#caff8a',
+    summary: 'Project notes, GitHub docs, wiki-style handoffs, Obsidian/Supabase knowledge-base ideas, and reusable build procedures so the work does not disappear after one session.',
+    points: ['Project catalogs and docs', 'Reusable workflows', 'Low-clutter memory for active builds']
   },
   {
     name: 'DayZ / Creative Tech Roots',
     type: 'Original lane',
     accent: '#dfff6b',
     summary: 'The creative roots: DayZ server work, Discord communities, CAD/digital design, projection/music experiments, and mechanic-brain problem solving.',
-    points: ['Game/server editing', 'Creative visuals and CAD', 'DIY systems thinking']
+    points: ['Game/server editing', 'Creative visuals, music and CAD', 'DIY systems thinking']
   }
 ];
 

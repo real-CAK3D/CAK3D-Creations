@@ -1,6 +1,6 @@
 # CAK3D-Creations
 
-Business/portfolio website for **CAK3D-Creations** — Andrew “CAK3D” Sullivan's creative technology workshop.
+Business/portfolio website for **CAK3D-Creations** — CAK3D's creative technology workshop.
 
 This repo is intentionally separate from `real-cak3d.github.io` so the original GitHub profile page can stay intact while this site is deployed independently on Vercel.
 
@@ -15,6 +15,10 @@ A business-style portfolio for active CAK3D projects:
 - Raspberry Pi/device dashboards
 - Discord bots and automation lanes
 - DayZ/creative tech roots
+- Home Assistant / smart-home experiments
+- Hermes agent command center workflows
+- NukeBox local app lab and Windows-hosted previews
+- Knowledge-base, wiki, and project documentation systems
 
 ## Deploying on Vercel
 

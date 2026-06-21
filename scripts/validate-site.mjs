@@ -19,6 +19,10 @@ const needles = [
   'Ibby Auto Works',
   'MyPetID',
   'Raspberry Pi',
+  'Home Assistant',
+  'Hermes',
+  'NukeBox',
+  'Knowledge',
   'Stripe',
   'Vercel'
 ];
@@ -34,7 +38,9 @@ const forbidden = [
   'sk_test_',
   'ghp_',
   'sb_secret_',
-  'service_role'
+  'service_role',
+  'Andrew',
+  'Sullivan'
 ];
 for (const bad of forbidden) {
   if (combined.includes(bad)) {
